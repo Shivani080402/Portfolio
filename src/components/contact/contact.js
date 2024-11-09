@@ -52,7 +52,7 @@ const Contact = () => {
      
         <div id ='contact'>
             <h1 className="contactpagetitle">Let's Connect and Collaborate</h1>
-            <div className="contactDesc">I'm here to help solve problems, share ideas, and work on meaningful projects. Whether you have a question, a collaboration idea, or just want to connect, I'd love to hear from you. Feel free to reach out!</div>
+            <div className="contactDesc">I'm here to help solve problems, share ideas, and work on meaningful projects. Whether you have a question, a collaboration idea, or just want to connect, <br />I'd love to hear from you. Feel free to reach out!</div>
             <form className="contactform" ref={form} onSubmit={sendEmail}>
                 <input type="text" className="name" placeholder="Your Name " name='from_name'/>
                 <input type = "text" className="email" placeholder="Your Email" name='from_eamil'/>

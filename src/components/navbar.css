@@ -1,6 +1,6 @@
 .navbar {
     background: rgb(30, 30, 30);
-    height : 5rem;
+    height : 4rem;
     width : 100vw;
     margin: 0 auto;
     padding: 1rem 2rem;
@@ -10,7 +10,7 @@
     position: sticky;
     top : 0;
     z-index: 3;
-    font-size: 30px;
+    font-size: 20px;
 
  
     
@@ -18,7 +18,7 @@
 
 .logo{
     object-fit: cover;
-    height: 4rem;
+    height: 2.5rem;
     border-radius: 50%;
     padding-left: 10%;
 }
@@ -48,8 +48,8 @@
     color: #000; /* Black text color */
     border: 2px solid #000; /* Border thickness */
     border-radius: 30px; /* Rounded corners */
-    padding: 12px 16px; /* Adjust padding for a balanced look */
-    font-size: 18px; /* Font size for text */
+    padding: 7px 10px; /* Adjust padding for a balanced look */
+    font-size: 15px; /* Font size for text */
     font-weight: bold; /* Slightly bold text */
     cursor: pointer;
     transition: all 0.3s ease; /* Smooth transition */
@@ -57,9 +57,9 @@
 }
 
 .desktopMenuIMG{
-    width: 25px; /* Adjust width of the image */
-    height: 25px; /* Adjust height of the image */
-    margin-right: 8px; /* Space between image and text */
+    width: 22px; /* Adjust width of the image */
+    height: 22px; /* Adjust height of the image */
+    margin-right: 5px; /* Space between image and text */
 
 
 }
@@ -78,7 +78,7 @@
 .moblogo{
     display: none;
     object-fit: cover;
-    height: 1.8rem;
+    height: 1.5rem;
 
 }
 .navMenu{

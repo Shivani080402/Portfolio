@@ -15,14 +15,14 @@
 
 .worktitle{
     margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 
 .worksdesc{
     color: blanchedalmond;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     max-width: 65rem;
     padding-bottom:2rem;
 }
@@ -35,15 +35,15 @@
     flex-wrap: wrap;
     width: 100vw;
     max-width: 85%;
-    padding-top: 3rem;
+    padding-top: 1rem;
 
 
 }
 
 .worksimg{
     object-fit: cover;
-    height: 20rem;
-    width: 20rem;
+    height: 14rem;
+    width: 14rem;
     border-radius: 2rem;
     border: rgb(40, 40, 40)  solid ;
     margin: 0.5rem;
