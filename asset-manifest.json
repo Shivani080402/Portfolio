@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b1c7967b.css",
+    "main.js": "/Portfolio/static/js/main.5f5b464b.js",
+    "static/media/scorecraze.jpg": "/Portfolio/static/media/scorecraze.f71e017001231ab12ed1.jpg",
+    "static/media/scm.jpg": "/Portfolio/static/media/scm.18320fdf30c58091dc46.jpg",
+    "static/media/sng.jpg": "/Portfolio/static/media/sng.004bc311a66e42760067.jpg",
+    "static/media/automation_framework.jpg": "/Portfolio/static/media/automation_framework.13deb3ebf7e06c2d7ac5.jpg",
+    "static/media/blogging.jpg": "/Portfolio/static/media/blogging.1daed47731408013bac2.jpg",
+    "static/media/image.png": "/Portfolio/static/media/image.e16c82825e8bc3aa23e8.png",
+    "static/media/full-stack.jpg": "/Portfolio/static/media/full-stack.ffef46db4533b01ef756.jpg",
+    "static/media/logo1.jpg": "/Portfolio/static/media/logo1.8b51047b6d4b74c9438d.jpg",
+    "static/media/BHN.jpg": "/Portfolio/static/media/BHN.36747c2ff088f82c6e8a.jpg",
+    "static/media/instaa.png": "/Portfolio/static/media/instaa.ff15a4da8b9bd857131e.png",
+    "static/media/java-backend.jpg": "/Portfolio/static/media/java-backend.c650af8f683a546773d6.jpg",
+    "static/media/Automation.jpg": "/Portfolio/static/media/Automation.c7a9fc8b65b492690272.jpg",
+    "static/media/react.jpg": "/Portfolio/static/media/react.00c123141c63fc9ffe9b.jpg",
+    "static/media/mysql.png": "/Portfolio/static/media/mysql.5deda07826ac728058c7.png",
+    "static/media/reactjss.webp": "/Portfolio/static/media/reactjss.c615de8224892d9c1f1f.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.b1c7967b.css.map": "/Portfolio/static/css/main.b1c7967b.css.map",
+    "main.5f5b464b.js.map": "/Portfolio/static/js/main.5f5b464b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1c7967b.css",
+    "static/js/main.5f5b464b.js"
+  ]
+}
