@@ -1,0 +1,70 @@
+#works{
+    min-height: calc(100vh - 5rem);
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+   
+    
+}
+
+.worktitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+
+}
+
+.worksdesc{
+    color: blanchedalmond;
+    font-weight: 400;
+    font-size: 1.5rem;
+    max-width: 65rem;
+    padding-bottom:2rem;
+}
+
+.workimgs{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 85%;
+    padding-top: 3rem;
+
+
+}
+
+.worksimg{
+    object-fit: cover;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 2rem;
+    border: rgb(40, 40, 40)  solid ;
+    margin: 0.5rem;
+
+
+}
+
+.workbtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1.5rem;
+
+}
+
+@media screen  and (max-width:600px){
+    .worksimg{
+        height: 48vw;
+
+    }
+    
+}

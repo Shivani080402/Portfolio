@@ -1,0 +1,122 @@
+#contactpage{
+    overflow: hidden;
+    min-height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0.2rem auto;
+  
+}
+
+.contactpagetitle{
+   
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.clientDesc{
+    margin: 1rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: rgb(215, 161, 226);
+
+}
+/* CSS for the client images section */
+.clientimgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Space between items */
+ 
+}
+
+.imagewithtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 325px; /* Set a fixed width for each item */
+    text-align: center;
+}
+
+.clientimg {
+    width: 100%; /* Image takes full width of the container */
+    height: 80%;
+    border-radius: 2.5rem;
+    border: 2px solid rgb(90, 85, 85);
+}
+
+h3{
+    padding-top: 1rem;
+    font-size: 30px;
+}
+
+#clients{
+    padding: 2rem;
+   
+}
+
+
+.contactDesc{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    color :rgb(189, 229, 183);
+}
+
+.contactform{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 90rem;
+}
+
+.name , .email, .msg {
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 47rem;
+    margin: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(41, 40, 41);
+}
+
+.submitbtn{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: white;
+    border: none;
+    border-radius: 0.8rem;
+    padding: 0.75rem 3.5rem;
+    margin: 3.5rem 2rem;
+    
+}
+
+.submitbtn:hover {
+    background-color: #c4b8e9; /* Light gray background on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow on hover */
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.link{
+    object-fit: cover;
+    height: 4.7rem;
+    width: 4.5rem;
+    border-radius: 2rem;
+    margin: 0 1.5rem;
+    margin-top: 5rem;
+}

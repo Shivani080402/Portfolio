@@ -1,0 +1,113 @@
+#intro {
+    height: calc(100vh - 5rem);
+    width : 100vw;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.bg {
+    position :absolute;
+    top : 2.5rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover; 
+    height: 95%;
+    width: auto;
+    border-radius: 8%;
+    opacity: 70%;
+   
+    
+}
+
+.intocontent {
+    height: 100vh;
+    width : 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    padding-bottom: 0.8rem;
+    font-size: 1.75rem;
+    font-weight: 200 bold;
+    
+}
+
+.introname{
+    padding-bottom: 2rem;
+    color: yellow;
+}
+
+.intopara {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing:1px ;
+    padding-bottom: 4rem;
+
+}
+
+.intotext{
+    padding-bottom: 2rem;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background: white;
+    
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem; 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0.2rem 0.1rem;
+    height: 2rem;
+}
+.btn:hover {
+    background-color: #c4b8e9; /* Light gray background on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow on hover */
+}
+
+.linkButton{
+    margin-top: 1.6rem;
+    color: rgb(64, 174, 233);
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+ /* @media screen and (max-width:1200px)  
+{
+ .bg{
+    right: -10vw;
+ }  
+ /* .intocontent{
+    font-size: 10vw;
+
+ } 
+ .hello{
+    font-size: 4.5vw;
+ } 
+}  */
+
+@media screen and (mim-width:800px) {
+
+    .bg{
+        right: -20vw;
+            /* Image will take full width of its container */
+        height: 100%;   /* Image will take full height of its container */
+        object-fit: cover; 
+    }
+    
+}
